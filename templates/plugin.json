@@ -1,0 +1,18 @@
+{
+  "id": "replace-me",
+  "version": "TODO",
+  "module": "scripts/modules/exe.au3",
+  "package": "packages/replace-me/setup.exe",
+  "sha256": "",
+  "architecture": "x64",
+  "requiresAdmin": true,
+  "timeoutSeconds": 1800,
+  "arguments": "",
+  "targetDir": "",
+  "skipIfVerified": false,
+  "verify": {
+    "path": "",
+    "arguments": "",
+    "contains": ""
+  }
+}

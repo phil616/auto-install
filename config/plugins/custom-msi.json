@@ -1,0 +1,18 @@
+{
+  "id": "custom-msi",
+  "version": "0.1.5",
+  "module": "scripts/modules/msi.au3",
+  "package": "packages/custom-msi/rustpm-0.1.5-x64.msi",
+  "sha256": "A14F162DC377EF00DB9353846545C8059BA59908026B78EE7346104D4E6CCFD4",
+  "architecture": "x64",
+  "requiresAdmin": true,
+  "timeoutSeconds": 1800,
+  "arguments": "",
+  "targetDir": "",
+  "skipIfVerified": false,
+  "verify": {
+    "path": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "arguments": "-NoProfile -ExecutionPolicy Bypass -File \"{root}\\scripts\\Verify-Rustpm.ps1\"",
+    "contains": "rustpm 0.1.5 verified"
+  }
+}

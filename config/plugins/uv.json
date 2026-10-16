@@ -1,0 +1,18 @@
+{
+  "id": "uv",
+  "version": "0.13.1",
+  "module": "scripts/modules/uv.au3",
+  "package": "packages/uv/uv-x86_64-pc-windows-msvc.zip",
+  "sha256": "3b2661a463a5baea7f5076ea2b25ab71d77f36a6c0d809e5350651792f80a672",
+  "architecture": "x64",
+  "requiresAdmin": false,
+  "timeoutSeconds": 300,
+  "arguments": "",
+  "targetDir": "%USERPROFILE%\\.local\\bin",
+  "skipIfVerified": false,
+  "verify": {
+    "path": "%USERPROFILE%\\.local\\bin\\uv.exe",
+    "arguments": "--version",
+    "contains": "uv 0.13.1 "
+  }
+}

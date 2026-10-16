@@ -1,0 +1,5 @@
+{
+  "name": "dev",
+  "description": "Git + uv + VC++ x64 运行库 + 用户提供的 MSI，按数组顺序执行",
+  "plugins": ["git", "uv", "vc-runtime-x64", "custom-msi"]
+}

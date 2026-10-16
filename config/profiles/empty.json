@@ -1,0 +1,5 @@
+{
+  "name": "empty",
+  "description": "仅用于验证工具链和空方案打包",
+  "plugins": []
+}

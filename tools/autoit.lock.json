@@ -1,0 +1,7 @@
+{
+  "version": "3.3.18.0",
+  "url": "https://www.autoitscript.com/files/autoit3/autoit-v3.zip",
+  "sha256": "CEB666A993A9F62621C3A0D4EE602774B2E7F543DE1F08EC0380632EE3F89BEB",
+  "recordedOn": "2026-10-16",
+  "note": "SHA256 calculated from the official HTTPS download; AutoIt3.exe Authenticode verified as AUTOIT CONSULTING LTD. Upstream URL is mutable; a future release must be reviewed before updating this lock."
+}

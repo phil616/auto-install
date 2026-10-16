@@ -1,0 +1,11 @@
+/tools/autoit/
+/tools/*.zip
+/packages/**
+!/packages/README.md
+/logs/**
+!/logs/.gitkeep
+/artifacts/**
+!/artifacts/.gitkeep
+*.local.json
+*.exe
+*.msi
